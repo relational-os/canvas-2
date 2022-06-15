@@ -88,8 +88,11 @@ importers:
       '@ethersproject/providers': ^5.0.0
       '@typechain/ethers-v5': ^10.0.0
       ethers: ^5.5.2
+      openzeppelin-contracts: ^4.0.0
       typechain: ^8.0.0
       typescript: ^4.5.5
+    dependencies:
+      openzeppelin-contracts: 4.0.0
     devDependencies:
       '@ethersproject/abi': 5.5.0
       '@ethersproject/bytes': 5.5.0
@@ -6874,6 +6877,10 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mimic-fn: 2.1.0
+
+  /openzeppelin-contracts/4.0.0:
+    resolution: {integrity: sha512-SlBeiWSJKhX9EY2Nlgev4P/LMBWWSk6wL+eqikAe9gODpxrQwLOx4Rw3vyHuJaChrUTlGyR4Gl1NqJMw0J15eQ==}
+    dev: false
 
   /optimist/0.3.7:
     resolution: {integrity: sha512-TCx0dXQzVtSCg2OgY/bO9hjM9cV4XYx09TVK+s3+FhkjT6LovsLe+pPMzpWf+6yXK/hUizs2gUoTw3jHM0VaTQ==}
